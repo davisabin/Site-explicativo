@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Criar um Site Simples</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .destaque {
+            color: red;
+            font-weight: bold;
+        }
+        #logo {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Conteúdo do Site -->
+    <h1>Como Criar um Site Simples</h1>
+    
+    <h2>1. Tags de Cabeçalho (Heading)</h2>
+    <p>As tags de cabeçalho (ou heading) de <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> são usadas para criar títulos e subtítulos com diferentes níveis de importância.</p>
+    
+    <h2>2. Parágrafos (Paragraph)</h2>
+    <p>A tag <code>&lt;p&gt;</code> é usada para criar parágrafos de texto normal.</p>
+    
+    <h2>3. Imagens (Image)</h2>
+    <p>A tag <code>&lt;img&gt;</code> é utilizada para inserir imagens em uma página. Ela possui os atributos <code>src</code> para o caminho da imagem e <code>alt</code> para texto alternativo.</p>
+    
+    <h2>4. Estilos com CSS</h2>
+    <p>O CSS (Cascading Style Sheets) permite estilizar elementos HTML para melhorar a apresentação visual do site. No exemplo, usamos classes (<code>class</code>) e IDs (<code>id</code>) para aplicar estilos específicos a elementos HTML.</p>
+    
+    <h3>Exemplo de Estilização:</h3>
+    <ul>
+        <li>Elemento com classe <code>.destaque</code>: <span class="destaque">Texto destacado</span></li>
+        <li>Elemento com ID <code>#logo</code>: <img id="logo" src="caminho/para/sua/imagem.png" alt="Logo da Empresa"></li>
+    </ul>
+    
+    <h2>5. Estrutura Completa do Exemplo</h2>
+    <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Como Criar um Site Simples&lt;/title&gt;
+    &lt;style&gt;
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .destaque {
+            color: red;
+            font-weight: bold;
+        }
+        #logo {
+            width: 200px;
+            height: auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Como Criar um Site Simples&lt;/h1&gt;
+    
+    &lt;h2&gt;1. Tags de Cabeçalho (Heading)&lt;/h2&gt;
+    &lt;p&gt;As tags de cabeçalho (ou heading) de &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; a &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; são usadas para criar títulos e subtítulos com diferentes níveis de importância.&lt;/p&gt;
+    
+    &lt;h2&gt;2. Parágrafos (Paragraph)&lt;/h2&gt;
+    &lt;p&gt;A tag &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; é usada para criar parágrafos de texto normal.&lt;/p&gt;
+    
+    &lt;h2&gt;3. Imagens (Image)&lt;/h2&gt;
+    &lt;p&gt;A tag &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; é utilizada para inserir imagens em uma página. Ela possui os atributos &lt;code&gt;src&lt;/code&gt; para o caminho da imagem e &lt;code&gt;alt&lt;/code&gt; para texto alternativo.&lt;/p&gt;
+    
+    &lt;h2&gt;4. Estilos com CSS&lt;/h2&gt;
+    &lt;p&gt;O CSS (Cascading Style Sheets) permite estilizar elementos HTML para melhorar a apresentação visual do site. No exemplo, usamos classes (&lt;code&gt;class&lt;/code&gt;) e IDs (&lt;code&gt;id&lt;/code&gt;) para aplicar estilos específicos a elementos HTML.&lt;/p&gt;
+    
+    &lt;h3&gt;Exemplo de Estilização:&lt;/h3&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Elemento com classe &lt;code&gt;.destaque&lt;/code&gt;: &lt;span class="destaque"&gt;Texto destacado&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;Elemento com ID &lt;code&gt;#logo&lt;/code&gt;: &lt;img id="logo" src="caminho/para/sua/imagem.png" alt="Logo da Empresa"&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    
+    &lt;h2&gt;5. Estrutura Completa do Exemplo&lt;/h2&gt;
+    &lt;pre&gt;&lt;code&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Como Criar um Site Simples&lt;/title&gt;
+    &lt;style&gt;
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .destaque {
+            color: red;
+            font-weight: bold;
+        }
+        #logo {
+            width: 200px;
+            height: auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Como Criar um Site Simples&lt;/h1&gt;
+    
+    &lt;h2&gt;1. Tags de Cabeçalho (Heading)&lt;/h2&gt;
+    &lt;p&gt;As tags de cabeçalho (ou heading) de &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; a &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; são usadas para criar títulos e subtítulos com diferentes níveis de importância.&lt;/p&gt;
+    
+    &lt;h2&gt;2. Parágrafos (Paragraph)&lt;/h2&gt;
+    &lt;p&gt;A tag &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; é usada para criar parágrafos de texto normal.&lt;/p&gt;
+    
+    &lt;h2&gt;3. Imagens (Image)&lt;/h2&gt;
+    &lt;p&gt;A tag &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; é utilizada para inserir imagens em uma página. Ela possui os atributos &lt;code&gt;src&lt;/code&gt; para o caminho da imagem e &lt;code&gt;alt&lt;/code&gt; para texto alternativo.&lt;/p&gt;
+    
+    &lt;h2&gt;4. Estilos com CSS&lt;/h2&gt;
+    &lt;p&gt;O CSS (Cascading Style Sheets) permite estilizar elementos HTML para melhorar a apresentação visual do site. No exemplo, usamos classes (&lt;code&gt;class&lt;/code&gt;) e IDs (&lt;code&gt;id&lt;/code&gt;) para aplicar estilos específicos a elementos HTML.&lt;/p&gt;
+    
+    &lt;h3&gt;Exemplo de Estilização:&lt;/h3&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Elemento com classe &lt;code&gt;.destaque&lt;/code&gt;: &lt;span class="destaque"&gt;Texto destacado&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;Elemento com ID &lt;code&gt;#logo&lt;/code&gt;: &lt;img id="logo" src="caminho/para/sua/imagem.png" alt="Logo da Empresa"&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+    </code></pre>
 
+    <p>Esse exemplo inclui explicação sobre como usar os comandos fundamentais para criar um site simples usando HTML e CSS. Você pode copiar e modificar este código para começar a construir seu próprio site!</p>
+</body>
+</html>
